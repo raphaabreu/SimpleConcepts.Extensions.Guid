@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <Authors>Raphael Lorenzeto de Abreu</Authors>
+    <RootNamespace>SimpleConcepts.Extensions</RootNamespace>
+    <PackageProjectUrl>https://github.com/raphaabreu/MediatR.Behaviors.Logging.AspNetCore</PackageProjectUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Description>Simple extensions to allow less verbose conversions of System.Guid to/from numeric types. Used to simplify projects that use numeric ids and need to upgraded to use UUID based ids or projects that work as an interface between the two forms of entry identification.</Description>
+    <RepositoryUrl>https://github.com/raphaabreu/MediatR.Behaviors.Logging.AspNetCore</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>mediator logging aspnetcore behaviors ilogger</PackageTags>
+    <Copyright>MIT</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
