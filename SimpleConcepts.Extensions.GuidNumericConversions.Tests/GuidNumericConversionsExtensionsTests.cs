@@ -3,23 +3,23 @@ using Xunit;
 
 namespace SimpleConcepts.Extensions.Tests
 {
-    public class GuidExtensionsTests
+    public class GuidNumericConversionsExtensionsTests
     {
         [Fact]
-        public void ToZeroPaddedGuid_WithPositiveInt64_ReturnsCorrectValue()
+        public void ToGuid_WithPositiveInt64_ReturnsCorrectValue()
         {
             // Arrange
             var input = long.MaxValue;
 
             // Act
-            var result = input.ToZeroPaddedGuid();
+            var result = input.ToGuid();
 
             // Assert
             Assert.Equal(Guid.Parse("00000000000009223372036854775807"), result);
         }
 
         [Fact]
-        public void ToZeroPaddedGuid_WithNegativeInt64_Throws()
+        public void ToGuid_WithNegativeInt64_Throws()
         {
             // Arrange
             var input = long.MinValue;
@@ -27,7 +27,7 @@ namespace SimpleConcepts.Extensions.Tests
             // Act
             void act()
             {
-                input.ToZeroPaddedGuid();
+                input.ToGuid();
             }
 
             // Assert
@@ -36,20 +36,20 @@ namespace SimpleConcepts.Extensions.Tests
         }
 
         [Fact]
-        public void ToZeroPaddedGuid_WithPositiveInt32_ReturnsCorrectValue()
+        public void ToGuid_WithPositiveInt32_ReturnsCorrectValue()
         {
             // Arrange
             var input = int.MaxValue;
 
             // Act
-            var result = input.ToZeroPaddedGuid();
+            var result = input.ToGuid();
 
             // Assert
             Assert.Equal(Guid.Parse("00000000000000000000002147483647"), result);
         }
 
         [Fact]
-        public void ToZeroPaddedGuid_WithNegativeInt32_Throws()
+        public void ToGuid_WithNegativeInt32_Throws()
         {
             // Arrange
             var input = int.MinValue;
@@ -57,7 +57,7 @@ namespace SimpleConcepts.Extensions.Tests
             // Act
             void act()
             {
-                input.ToZeroPaddedGuid();
+                input.ToGuid();
             }
 
             // Assert
@@ -66,20 +66,20 @@ namespace SimpleConcepts.Extensions.Tests
         }
 
         [Fact]
-        public void ToZeroPaddedGuid_WithPositiveInt16_ReturnsCorrectValue()
+        public void ToGuid_WithPositiveInt16_ReturnsCorrectValue()
         {
             // Arrange
             var input = short.MaxValue;
 
             // Act
-            var result = input.ToZeroPaddedGuid();
+            var result = input.ToGuid();
 
             // Assert
             Assert.Equal(Guid.Parse("00000000000000000000000000032767"), result);
         }
 
         [Fact]
-        public void ToZeroPaddedGuid_WithNegativeInt16_Throws()
+        public void ToGuid_WithNegativeInt16_Throws()
         {
             // Arrange
             var input = short.MinValue;
@@ -87,7 +87,7 @@ namespace SimpleConcepts.Extensions.Tests
             // Act
             void act()
             {
-                input.ToZeroPaddedGuid();
+                input.ToGuid();
             }
 
             // Assert

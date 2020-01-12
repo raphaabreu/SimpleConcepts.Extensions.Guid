@@ -3,9 +3,9 @@ using System.Globalization;
 
 namespace SimpleConcepts.Extensions
 {
-    public static class GuidExtensions
+    public static class GuidNumericConversionsExtensions
     {
-        public static Guid ToZeroPaddedGuid(this long input)
+        public static Guid ToGuid(this long input)
         {
             if (input < 0)
             {
@@ -15,7 +15,7 @@ namespace SimpleConcepts.Extensions
             return Guid.Parse(input.ToString("D32", CultureInfo.InvariantCulture));
         }
 
-        public static Guid ToZeroPaddedGuid(this int input)
+        public static Guid ToGuid(this int input)
         {
             if (input < 0)
             {
@@ -25,7 +25,7 @@ namespace SimpleConcepts.Extensions
             return Guid.Parse(input.ToString("D32", CultureInfo.InvariantCulture));
         }
 
-        public static Guid ToZeroPaddedGuid(this short input)
+        public static Guid ToGuid(this short input)
         {
             if (input < 0)
             {

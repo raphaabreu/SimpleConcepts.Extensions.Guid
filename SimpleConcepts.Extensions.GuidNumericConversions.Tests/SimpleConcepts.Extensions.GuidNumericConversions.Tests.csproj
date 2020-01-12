@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SimpleConcepts.Extensions.Guid\SimpleConcepts.Extensions.Guid.csproj" />
+    <ProjectReference Include="..\SimpleConcepts.Extensions.GuidNumericConversions\SimpleConcepts.Extensions.GuidNumericConversions.csproj" />
   </ItemGroup>
 
 </Project>
