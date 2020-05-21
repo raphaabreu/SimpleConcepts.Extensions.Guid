@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleConcepts.Extensions.GuidNumericConversions", "SimpleConcepts.Extensions.GuidNumericConversions\SimpleConcepts.Extensions.GuidNumericConversions.csproj", "{48A20460-3A13-4713-87FF-0B27277747D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleConcepts.Extensions.Guid", "SimpleConcepts.Extensions.Guid\SimpleConcepts.Extensions.Guid.csproj", "{48A20460-3A13-4713-87FF-0B27277747D1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleConcepts.Extensions.GuidNumericConversions.Tests", "SimpleConcepts.Extensions.GuidNumericConversions.Tests\SimpleConcepts.Extensions.GuidNumericConversions.Tests.csproj", "{CC09F84C-7CD4-4D8E-ACE6-3483EB2C2362}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleConcepts.Extensions.Guid.Tests", "SimpleConcepts.Extensions.Guid.Tests\SimpleConcepts.Extensions.Guid.Tests.csproj", "{CC09F84C-7CD4-4D8E-ACE6-3483EB2C2362}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

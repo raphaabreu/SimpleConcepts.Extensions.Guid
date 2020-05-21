@@ -3,7 +3,7 @@ using System.Globalization;
 
 namespace SimpleConcepts.Extensions
 {
-    public static class GuidNumericConversionsExtensions
+    public static class GuidNumberExtensions
     {
         public static Guid ToGuid(this long input)
         {

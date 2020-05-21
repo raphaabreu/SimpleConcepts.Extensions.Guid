@@ -3,7 +3,7 @@ using Xunit;
 
 namespace SimpleConcepts.Extensions.Tests
 {
-    public class GuidNumericConversionsExtensionsTests
+    public class GuidNumberExtensionsTests
     {
         [Fact]
         public void ToGuid_WithPositiveInt64_ReturnsCorrectValue()
