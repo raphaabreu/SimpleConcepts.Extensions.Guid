@@ -12,13 +12,16 @@
     <PackageProjectUrl>https://github.com/raphaabreu/SimpleConcepts.Extensions.Guid</PackageProjectUrl>
     <PackageTags>simple concepts simpleconcepts guid numeric conversion extensions</PackageTags>
     <Copyright>MIT</Copyright>
-    <Version>1.0.2</Version>
+    <Version>1.0.0</Version>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\LICENSE">
+    <None Include="..\..\LICENSE">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
   </ItemGroup>
+
 </Project>
